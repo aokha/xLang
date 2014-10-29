@@ -216,10 +216,11 @@ class xYouMeOSLang {
 						]
 					]]
 				],[
-					'title' => 'Where',
-					'icon' => 'fa fa-map-marker',
-					'tip'    => 'Where you have been in the World?',
-					'type' => 'tabs',
+					'title'    => 'Where',
+					'icon'     => 'fa fa-map-marker',
+					'tip'      => 'Where you have been in the World?',
+					'type'     => 'tabs',
+					'vertical' => true,
 					'menu'	=> [[
 						'title' => 'Status',
 						'col' => 'col-md-4',
@@ -371,18 +372,19 @@ class xYouMeOSLang {
 						'type' => 'jumbotron'
 					]]
 				],[
-					'title' => 'How',
-					'icon' => 'fa fa-question',
-					'type' => 'tabs', 
-					'tip'    => 'How you do that thing you do',
-					'menu'	=> [[
-						'title'   => 'Super Powers',
-						'icon'    => 'fa fa-bolt',
-						'header'  => 'Fuel the Engine!',
+					'title'    => 'How',
+					'icon'     => 'fa fa-question',
+					'type'     => 'tabs', 
+					'tip'      => 'How you do that thing you do',
+					'vertical' => true,
+					'menu'     => [[
+						'title'  => 'Super Powers',
+						'icon'   => 'fa fa-bolt',
+						'header' => 'Fuel the Engine!',
 						'active' => true,
-						'quote'   => 'Let us acknowledge the gifts and offerings which make us unique and which we bring to the collective table! Be bold and declare the ways in which you shine! Your strengths add to the collective power of the overall engine and will help the nexus match you with KIN in need of those strengths.',
-						'tip' => 'Share the top 5 one-word qualities which best describe the Strengths that are the Heart of your Power.',
-						'type' => 'jumbotron'
+						'quote'  => 'Let us acknowledge the gifts and offerings which make us unique and which we bring to the collective table! Be bold and declare the ways in which you shine! Your strengths add to the collective power of the overall engine and will help the nexus match you with KIN in need of those strengths.',
+						'tip'    => 'Share the top 5 one-word qualities which best describe the Strengths that are the Heart of your Power.',
+						'type'   => 'jumbotron'
 					],[
 						'title'   => 'Skills',
 						'icon'    => '',
