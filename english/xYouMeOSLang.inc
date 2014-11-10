@@ -9,7 +9,10 @@
  * @SACRAL O' Sands of Time
  * @ROOT Omega Space
  * @OFF Sign Off :)
- * @login Who... R U?
+ * @login …who…are…YOU?
+ * @newlogin Weave OS
+ * @open Open Sesame
+ * @tour Tour Me
  * @BTN7 Save
  */
 class xYouMeOSLang {
@@ -54,7 +57,7 @@ class xYouMeOSLang {
 						],
 						'blockquote' => 'Organize your Spectrum',
 						'a' => [
-							'html'  => '<i class="fa fa-cloud"></i> About You',
+							'html'  => '<i class="fa fa-cloud"></i> Castle in the Cloud',
 							'class' => 'btn-info btn-lg btn-alt',
 							'attr'  => [
 								'data-toggle'  => 'modal', 
@@ -64,10 +67,17 @@ class xYouMeOSLang {
 					],
 				],[
 					'col'   => 'col-md-5',
-					'type'  => 'widget',
+					'type'  => 'bulletin',
 					'title' => 'Ongoing Projects',
-					'widget'	=> [
-
+					'html'	=> [
+						'a' => [
+							'html'  => '<i class="fa fa-cloud"></i> Castle in the Cloud',
+							'class' => 'btn-info btn-lg btn-alt',
+							'attr'  => [
+								'data-toggle'  => 'modal', 
+								'href'  => '#/campaign/index.html'
+							]
+						]
 					]
 				]], 
 				'bulletin' => [
