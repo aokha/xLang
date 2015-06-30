@@ -69,25 +69,25 @@ class xNavigationLang {
 			'JUMBO' => array(
 				'HEAD' => 'Navigation',
 				'QUOTE' => 'Help your visitors see their way through your sea of information.',
-				'BTN'	=> array(
-					'shelves'	=> array(
-						'class' => 'btn-transparent',
-						'i' => 'fa fa-pencil',
-						'modal' => array(
-							'title' => 'Select a Menu to Edit',
-							'tpl'  => 'select-menu'
-						)
-					),
-					//'products'	=> '<i class="fa fa-coffee"></i> Products & Serives &nbsp; ',
-					'orders'	=> array(
-						'class' => 'btn-transparent',
-						'i' => 'fa fa-plus',
-						'modal' => array(
-							'title' => 'Create a New Menu',
-							'tpl'  => 'create-menu'
-						)
-					)
-				)
+				// 'BTN'	=> array(
+				// 	'shelves'	=> array(
+				// 		'class' => 'btn-transparent',
+				// 		'i' => 'fa fa-pencil',
+				// 		'modal' => array(
+				// 			'title' => 'Select a Menu to Edit',
+				// 			'tpl'  => 'select-menu'
+				// 		)
+				// 	),
+				// 	//'products'	=> '<i class="fa fa-coffee"></i> Products & Serives &nbsp; ',
+				// 	'orders'	=> array(
+				// 		'class' => 'btn-transparent',
+				// 		'i' => 'fa fa-plus',
+				// 		'modal' => array(
+				// 			'title' => 'Create a New Menu',
+				// 			'tpl'  => 'create-menu'
+				// 		)
+				// 	)
+				// )
 			),
 			'TABS' => [
 				[
