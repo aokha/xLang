@@ -11,28 +11,38 @@ class xWwwSetupLang {
 				'COPYRIGHT' => 'SuperDomX &#copy; 2010~13'
 			)
 		),
-		'ICON' => 'fa-magic',
+		'ICON' => 'fa-smile-o',
 		'JUMBO' => array(
 
-			'HEAD' => 'www Paper',
-			'QUOTE' => 'Here is where you can control the look and feel of your websites\'s pages.',
+			'HEAD' => "Let's get started!",
+			'QUOTE' => "Use the menu on the left to navigate your way around.",
 			'BTN'	=> array(
-				'bootstrap'	=> array(
-					'a' => '<i class="fa fa-magic"></i> Paper Portal &nbsp; ',
+				'intro'	=> array(
+					'a' => '<i class="fa fa-info"></i> Intro',
 					'class' => 'btn-danger'
 				),
-				'buildHtml'	=> array(
-					'a' => '<i class="fa fa-html5"></i> HTML &nbsp; ',
-					'class' => 'btn-warning'
-				),
-				'buildJs'	=> array(
-					'a' => '<i class="fa fa-coffee"></i> Javascript &nbsp; ',
+				'todo'	=> array(
+					'a' => '<i class="fa fa-check-circle"></i> Checklist',
 					'class' => 'btn-info'
 				),
-				'buildCss'	=> array(
-					'a' => '<i class="fa fa-css3"></i> CSS  &nbsp; ',
+				'about'	=> array(
+					'a' => '<i class="fa fa-question"></i> About &nbsp; ',
 					'class' => 'btn-success'
 				)
+				// 'buildHtml'	=> array(
+				// 	'a' => '<i class="fa fa-html5"></i> 5. HTML Master &nbsp; ',
+				// 	'class' => 'btn-warning'
+				// )
+			)
+		),
+		'intro'=> array(
+			'ICON' => 'fa-info',
+			'JUMBO' => array( 
+				'HEAD' => "Introducing...",
+				'QUOTE' => 'Use the wizard below to setup your <b>Super Domain</b> in a jiffy.' 
+			),
+			'input' => array(
+				'html','css','js'
 			)
 		),
 	);

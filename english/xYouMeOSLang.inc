@@ -9,7 +9,7 @@
  * @SACRAL O' Sands of Time
  * @ROOT Omega Space
  * @OFF Sign Off :)
- * @login …who…are…YOU?
+ * @login Login
  * @newlogin Weave OS
  * @open Open Sesame
  * @tour Tour Me
@@ -31,7 +31,7 @@ class xYouMeOSLang {
 							// ],
 							'html' => 'Omni Scope',
 						],
-						'blockquote' => 'Oversee your whole Web',
+						'blockquote' => 'Oversee your whole Web. Give Thanks, or No Thanks.',
 						'a' => [
 							'html'  => '<i class="fa fa-sun-o"></i>',
 							'class' => 'btn-info btn-lg btn-alt',

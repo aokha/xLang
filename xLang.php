@@ -2,12 +2,12 @@
 /**
 * @author dev@domain.com
 * @name Language
-* @desc Change the Languauge on your Site.
+* @desc Install Languauges and Manage Translations
 * @version v1(1.7)
 * @icon applications-education-language.png 
 * @mini language 
 * @link lang
-* @see domain
+* @see support
 * @release false
 * @alpha true
 **/
@@ -70,7 +70,8 @@ class xLang extends Xengine {
 			if($a != 'XINDEX'){
 				$l = $lang[$a];
 
-				$m = $l['methods'][$m];
+				$talk = $lang[$a][$m];
+				$tpl = $lang[$a]['UI'];
 
 				return array(
 					'L' => $lang[$a],
@@ -78,7 +79,8 @@ class xLang extends Xengine {
 						'class' => $l,
 						'method' => $m
 					),
-
+					'TALK' => $talk,
+					'UI' => $tpl,
 					'_LANG' => $lang
 				); 
 			}	

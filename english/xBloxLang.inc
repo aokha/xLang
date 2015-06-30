@@ -21,44 +21,54 @@ class xBloxLang {
 				'icon' => ''
 			),
 		),
-		'ICON' => 'fa-cubes',
+		'ICON' => 'fa-wrench',
 		'JUMBO' => array( 
-			'HEAD' => 'Play in the Toy Blox',
-			'QUOTE' => 'Jump right in! Become aquainted with the many different blocks to use to build your Kingdom.',
+			'HEAD' => 'The Engine Room',
+			'QUOTE' => 'Customize your <b>Super Domain</b> however you like. The Power is your\'s.',
 			'BTN'	=> array( 
 				
-				'read'	=> array(
-					'a' => '<i class="fa fa-book"></i>  All Blox ',
-					'class' => 'btn-info'
+				'templates'	=> array(
+					'a' => '<i class="fa fa-paint-brush"></i> Themes',
+					'class' => 'btn-transparent'
 				),
-				'create'	=> array(
-					'a' => '<i class="fa fa-cube"></i>  Create Blox ',
-					'class' => 'btn-success'
+
+				'customize'	=> array(
+					'a' => '<i class="fa fa-wrench"></i> Customize',
+					'class' => 'btn-transparent'
 				),
-				'update'	=> array(
-					'a' => '<i class="fa fa-cubes"></i>  Edit Blox ',
-					'class' => 'btn-primary'
+				'html'	=> array(
+					'a' => '<i class="fa fa-html5"></i> Engine Blox',
+					'class' => 'btn-transparent'
 				),
-				'delete'	=> array(
-					'a' 	=> '<i class="fa fa-bomb"></i>   Delete',
-					'class' => 'btn-danger'
+	
+
+				'js'	=> array(
+					'a' => '<i class="fa fa-book"></i> Libraries',
+					'class' => 'btn-transparent'
+				),				
+				'css'	=> array(
+					'a' => '<i class="fa fa-css3"></i> Style Sheets',
+					'class' => 'btn-transparent'
 				),
+
+				
 			)
 		),
-		'create'=> array(
-			'ICON' => 'fa-cube',
+		'templates'=> array(
+			'ICON' => 'fa-paint-brush',
 			'JUMBO' => array( 
-				'HEAD' => 'Create a New Blox',
-				'QUOTE' => 'Blox are made up of HTML, CSS, Javascript, with a Splash of Server Side Power.' 
+				'HEAD' => 'Themes',
+				'QUOTE' => 'Pre-designed, ready-to-go, yet customizable, themes for your cloud.' 
 			),
 			'input' => array(
 				'html','css','js'
 			)
 		),
-		'read'=> array(
+		'html'=> array(
 			'ICON' => 'fa-book',
 			'JUMBO' => array( 
 				'HEAD' => 'Countless Numbers of Blox',
+				'QUOTE' => 'A "Blox" is a universally exchangable blob of code; compromised of HTML, CSS, and Javascript.',
 				'QUOTE' => 'The Nexus is Home to a Millions of Blox built from and shared with the world.' 
 			)
 		),
