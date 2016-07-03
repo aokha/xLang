@@ -14,6 +14,9 @@
 class xLoginLang {
 	// Used for Complex values.
 	var $_LANG = array(
+    'login_btn' => [
+      'text' => "Login"
+    ],
 		'emails'		=> array(
 			'key' => array(
 				'sub' => " has given you a Key to ",

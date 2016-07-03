@@ -23,19 +23,9 @@ class xBloxLang {
 		),
 		'ICON' => 'fa-wrench',
 		'JUMBO' => array( 
-			'HEAD' => 'The Engine Room',
-			'QUOTE' => 'Customize your <b>Super Domain</b> however you like. The Power is your\'s.',
+			'HEAD' => 'Blox',
+			'QUOTE' => 'Blox are Universal chunks of code created to be Widely Distributed and Quickly Deployed anywhere you want.',
 			'BTN'	=> array( 
-				
-				'templates'	=> array(
-					'a' => '<i class="fa fa-paint-brush"></i> Themes',
-					'class' => 'btn-transparent'
-				),
-
-				'customize'	=> array(
-					'a' => '<i class="fa fa-wrench"></i> Customize',
-					'class' => 'btn-transparent'
-				),
 				'html'	=> array(
 					'a' => '<i class="fa fa-html5"></i> Engine Blox',
 					'class' => 'btn-transparent'

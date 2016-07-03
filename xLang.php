@@ -7,9 +7,9 @@
 * @icon applications-education-language.png 
 * @mini language 
 * @link lang
-* @see support
-* @release false
-* @alpha true
+* @see settings
+* @beta
+* @todo
 **/
 class xLang extends Xengine {
 

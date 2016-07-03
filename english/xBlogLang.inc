@@ -17,15 +17,15 @@ class xBlogLang {
 		'ICON' => 'fa-book',
 		'JUMBO' => array(
 
-			'HEAD' => 'Captain\'s Blog',
-			'QUOTE' => 'Here is ware yar set a path for ye vistors.',
+			'HEAD' => 'Posts',
+			'QUOTE' => 'Add, Edit, Postpone and Archive Posts',
 			'BTN'	=> array(
 				'create'	=> array(
-					'a' => '<i class="fa fa-pencil"></i> New Log &nbsp; ',
+					'a' => '<i class="fa fa-pencil"></i> New Post',
 					'class' => 'btn-success'
 				),
 				'read'	=> array(
-					'a' => '<i class="fa fa-book"></i> Archives &nbsp; ',
+					'a' => '<i class="fa fa-book"></i> Categories ',
 					'class' => 'btn-info'
 				),
 				'update'	=> array(
@@ -33,7 +33,7 @@ class xBlogLang {
 					'class' => 'btn-primary'
 				),
 				'delete'	=> array(
-					'a' => '<i class="fa fa-bomb"></i> Delete &nbsp; ',
+					'a' => '<i class="fa fa-trash"></i> Trash',
 					'class' => 'btn-danger'
 				)
 			)

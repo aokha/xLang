@@ -57,7 +57,6 @@ class xShopLang {
 					'desc' => 'Enter your business phone number here.'
 				),
 				'fax' => array(
-
 					'icon' => 'fa fa-fax',
 					'desc' => 'If your business has a fax number, enter it here.',
 				),
