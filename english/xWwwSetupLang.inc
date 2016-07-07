@@ -13,7 +13,7 @@ class xWwwSetupLang {
     ),
     'ICON' => 'fa-smile-o',
     'JUMBO' => array(
-      'HEAD' => 'Introducing, <b>Mr. Wizard</b>',
+      'HEAD' => 'Setup your site with <b>Mr. Wizard</b>',
       'QUOTE' => "<b>Mr. Wizard</b> is an easy, step-by-step, configuration panel. Click the buttons below to begin.",
       'BTN' => array(
         'settings' => array(
@@ -21,11 +21,11 @@ class xWwwSetupLang {
           'class' => 'btn-success',
           'modal' => true
         ),
-        'superdom' => array(
-          'a' => '<i class="fa fa-gear"></i> Configure SuperDom',
-          'class' => 'btn-info',
-          'modal' => true
-        ),
+        // 'superdom' => array(
+        //   'a' => '<i class="fa fa-gear"></i> Configure SuperDom',
+        //   'class' => 'btn-info',
+        //   'modal' => true
+        // ),
         // 'todo' => array(
         //  'a' => '<i class="fa fa-check-circle"></i> Checklist',
         //  'class' => 'btn-info'

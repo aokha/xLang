@@ -5,8 +5,8 @@ class xShopLang {
 	// Used for Complex values.
 	var $_LANG = array(
 		'JUMBO' => array(
-			'HEAD' => 'Open Shop',
-			'QUOTE' => 'Come, open shop and exchange your <b>Goods & Services</b> to the World!',
+			'HEAD' => 'Storefront',
+			'QUOTE' => 'Exchange your <b>Goods & Services</b> to the World!',
 			'BTN'	=> array(
 
 				'settings'	=> array(
