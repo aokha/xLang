@@ -29,16 +29,16 @@
         ),
         'tabs'      => [
           'featured'  => [
-            'icon'  => 'fa-trophy'
+            'icon'  => 'fa-trophy hidden-xs'
           ],
           'popular'   => [
-            'icon'  => 'fa-thumbs-up'
+            'icon'  => 'fa-thumbs-up hidden-xs'
           ],
           'latest'    => [
-            'icon'  => 'fa-clock-o'
+            'icon'  => 'fa-clock-o hidden-xs'
           ],
           'favorites' => [
-            'icon'  => 'fa-star-o'
+            'icon'  => 'fa-star-o hidden-xs'
           ],
         ],
         'input' => array( 
