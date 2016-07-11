@@ -12,53 +12,45 @@
  * @blah
  */
 class xVitalsLang {
-	// Used for Complex values.
-	var $_LANG = array(
-		'ICON' => 'fa-bar-chart',
-		'JUMBO' => array(
-
-			'HEAD' => 'Domain Vitals',
-			'QUOTE' => 'Stats fit for a King\'s Dom',
-			'BTN'	=> array(
-				'create'	=> array(
-					'a' => '<i class="fa fa-pencil"></i> New Log &nbsp; ',
-					'class' => 'btn-success'
-				),
-				'read'	=> array(
-					'a' => '<i class="fa fa-book"></i> Archives &nbsp; ',
-					'class' => 'btn-info'
-				),
-				'update'	=> array(
-					'a' => '<i class="fa fa-tag"></i> Tags &nbsp; ',
-					'class' => 'btn-primary'
-				),
-				'delete'	=> array(
-					'a' => '<i class="fa fa-bomb"></i> Delete &nbsp; ',
-					'class' => 'btn-danger'
-				)
-			)
-		),
-		'catalog' => array(
-			'JUMBO' => array(
-				'HEAD' => 'Catalog',
-				'QUOTE' => 'An interactive catalog manager. Oragnize your goods for the good of your customers ;)',
-				'BTN'	=> array(
-					'shelves'	=> array(
-						'a' => '<i class="fa fa-book"></i> Catalog &nbsp; ',
-						'class' => 'btn-info'
-					),
-					//'products'	=> '<i class="fa fa-coffee"></i> Products & Serives &nbsp; ',
-					'orders'	=> array(
-						'a' => '<i class="fa fa-truck"></i> Orders &nbsp; ',
-						'class' => 'btn-success'
-					)
-				),
-				'catalog' => array(
-					''
-				)
-			),
-		)
-
-	);
+  // Used for Complex values.
+  var $_LANG = array(
+    'ICON' => 'fa-globe',
+    'JUMBO' => array(
+      'HEAD' => 'Visitors',
+      'QUOTE' => 'Visitor statistics',
+      'BTN' => array(
+        'index'  => array(
+          'a' => '<i class="fa fa-bar-chart-o"></i> Statistics',
+          'class' => 'btn-transparent'
+        ),
+        'settings'  => array(
+          'a' => '<i class="fa fa-cog"></i> Settings',
+          'class' => 'btn-transparent',
+          'modal' => true
+        ),
+      )
+    ),
+    'settings' => array(
+      'step_1'    => 'Setup Your 3rd Party tracking IDs',
+      'wizard'      => array(
+        'title'   => 'Setup your 3rd party tracking IDs',
+        'subtitle'   => '',
+        'step_1' => array( 
+          'google_analytics_id' => array(
+            'icon' => 'fa fa-google',
+            'desc' => 'Your Google Analytics ID'
+          ),
+          'facebook_id' => array(
+            'icon' => 'fa fa-facebook',
+            'desc' => 'Your Facebook ID'
+          ),
+          'yahoo_id' => array(
+            'icon' => 'fa fa-yahoo',
+            'desc' => 'Your Yahoo ID'
+          ),
+        ),
+      ),
+    )
+  );
 }
 ?>

@@ -14,11 +14,11 @@
       ),
       'ICON' => 'fa-smile-o',
       'JUMBO' => array(
-        'HEAD' => 'Setup your site with <b>Mr. Wizard</b>',
-        'QUOTE' => "<b>Mr. Wizard</b> is an easy, step-by-step, configuration panel. Click the buttons below to begin.",
+        'HEAD' => 'Hello, I am <b>Wizard</b>',
+        'QUOTE' => "<b>Wizard</b> is an easy, step-by-step, configuration panel. Click <b>Start Wizard</b> to begin.",
         'BTN' => array(
           'settings' => array(
-            'a'     => '<i class="fa fa-globe"></i> Go',
+            'a'     => '<i class="fa fa-play"></i> Start Wizard',
             'class' => 'btn-success',
             'modal' => true
           ),
