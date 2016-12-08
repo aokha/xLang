@@ -5,29 +5,35 @@ class xShopLang {
 	// Used for Complex values.
 	var $_LANG = array(
 		'JUMBO' => array(
-			'HEAD' => 'Super Bazaar!',
-			'QUOTE' => '<b>Welcome</b> to your Online Bazaar; Where you connect to the world to exchange Goods & Services.',
+			'HEAD' => 'Storefront',
+			'QUOTE' => 'Exchange your <b>Goods & Services</b> to the World!',
 			'BTN'	=> array(
 
-				'upload'	=> array(
-					'a' => '<i class="fa fa-photo"></i> Upload &nbsp; ',
-					'class' => 'btn-info btn-sm'
+				'settings'	=> array(
+					'a' => '<i class="fa fa-map-marker"></i> Setup &nbsp; ',
+					'class' => 'btn-transparent'
 				),
+				
 				'catalog'	=> array(
 					'a' => '<i class="fa fa-book"></i> Catalog &nbsp; ',
-					'class' => 'btn-primary btn-sm'
+					'class' => 'btn-transparent'
 				),
-				'inventory'	=> array(
-					'a' => '<i class="fa fa-cube"></i> Inventory &nbsp; ',
-					'class' => 'btn-success btn-sm'
-				),
+				// 'upload'	=> array(
+				// 	'a' => '<i class="fa fa-photo"></i> Batch Upload &nbsp; ',
+				// 	'class' => 'btn-info btn-sm'
+				// ),
+				
 				'orders'	=> array(
 					'a' => '<i class="fa fa-truck fa-flip-horizontal"></i> Orders &nbsp; ',
-					'class' => 'btn-danger btn-sm'
+					'class' => 'btn-transparent'
 				),
-				'settings'	=> array(
-					'a' => '<i class="fa fa-gear"></i> Settings &nbsp; ',
-					'class' => 'btn-info btn-sm'
+				// 'inventory'	=> array(
+				// 	'a' => '<i class="fa fa-cube"></i> Inventory &nbsp; ',
+				// 	'class' => 'btn-info'
+				// ),
+				'reports'	=> array(
+					'a' => '<i class="fa fa-flag-checkered"></i> Reports &nbsp; ',
+					'class' => 'btn-transparent'
 				),
 				// 'shipments'	=> array(
 				// 	'a' => '<i class="fa fa-truck"></i> Shipments &nbsp; ',
@@ -41,7 +47,7 @@ class xShopLang {
 		'settings' => array(
 			'ICON'  => 'fa-gear',
 			'JUMBO' => array(
-				'HEAD' => 'Bazaar Settings',
+				'HEAD' => 'Setup Shop',
 				'QUOTE' => 'Enter the information that will be displayed on customer\'s invoices.',
 				 
 			),
@@ -51,7 +57,6 @@ class xShopLang {
 					'desc' => 'Enter your business phone number here.'
 				),
 				'fax' => array(
-
 					'icon' => 'fa fa-fax',
 					'desc' => 'If your business has a fax number, enter it here.',
 				),

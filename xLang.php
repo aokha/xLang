@@ -1,16 +1,16 @@
 <?php
 /**
-* @author dev@domain.com
-* @name Language
-* @desc Change the Languauge on your Site.
-* @version v1(1.4)
-* @icon applications-education-language.png 
-* @mini language 
-* @link lang
-* @see domain
-* @release false
-* @alpha true
-**/
+  * @name Language
+  * @desc Install Languauges and Manage Translations
+  * @version v0.1(160710)
+  * @author  @xopherdeep
+  * @icon applications-education-language.png 
+  * @mini language 
+  * @link lang
+  * @see settings
+  * @beta
+  * @todo
+  **/
 class xLang extends Xengine {
 
 	// Adds a language setting to the users profile table. 
@@ -24,6 +24,11 @@ class xLang extends Xengine {
 
 	function __construct($sdx=null){
 		$this->sdx = $sdx;
+	}
+
+	function index(){
+
+		return $r;
 	}
 
 	function autoRun($X){
@@ -41,7 +46,6 @@ class xLang extends Xengine {
 		$c = 'config';
 		if( empty($lang[0][0]) ){
 		 	$lang = $q->Select("config_value",$c,array( "config_option" => 'lang_www')); 
-
 			if( empty($lang) ){
 				$lang = 'english';
 			}else{
@@ -63,20 +67,23 @@ class xLang extends Xengine {
 			$a = 'X'.strtoupper($this->_SET['action']);
 			$m = $this->_SET['method']; 
 
-			$l = $lang[$a];
+			if($a != 'XINDEX'){
+				$l = $lang[$a];
 
-			$m = $l['methods'][$m];
+				$talk = $lang[$a][$m];
+				$tpl = $lang[$a]['UI'];
 
-			return array(
-				'L' => $lang[$a],
-				'lan' => array(
-					'class' => $l,
-					'method' => $m
-				),
-
-				'_LANG' => $lang
-			); 
-
+				return array(
+					'L' => $lang[$a],
+					'lan' => array(
+						'class' => $l,
+						'method' => $m
+					),
+					'TALK' => $talk,
+					'UI' => $tpl,
+					'_LANG' => $lang
+				); 
+			}	
 		}
 
 		
@@ -115,20 +122,22 @@ class xLang extends Xengine {
 						$data =  trim(preg_replace('/\r?\n *\* */', ' ', $doc));
 						preg_match_all('/@([A-Za-z0-9]+)\s+(.*?)\s*(?=$|@[A-Za-z0-9]+\s)/s', $data, $matches);
 						$info = array_combine($matches[1], $matches[2]);
-						$ext                                    = explode('.',$file); 
-
-						$file = str_replace('.inc', '', str_replace('Lang', '', $file));
- 
+						$ext  = explode('.',$file); 
 						
+						// Replace string
+						// $file = str_replace('Lang', '', $file);
+						$file = preg_replace('/Lang/', '', $file, 1);
+						$file = str_replace('.inc', '', $file);						
 
 						if (class_exists($class)){
 							$class = new $class;  
 							$info = array_merge_recursive($info,$class->_LANG);
 						}
 
-
 						$files[strtoupper($file)] = $info;
-					}	
+					}	else{
+						$this->_comment("Could not load Language File ".$file);
+					}
 
 		            if(strtolower($ext[count($ext)-1]) === 'inc'){
 		            	

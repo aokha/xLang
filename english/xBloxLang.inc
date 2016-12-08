@@ -21,45 +21,45 @@ class xBloxLang {
 				'icon' => ''
 			),
 		),
-		'ICON' => 'fa-cubes',
+		'ICON' => 'fa-wrench',
 		'JUMBO' => array( 
-			'HEAD' => 'Play in the Toy Blox',
-			'QUOTE' => 'Jump right in! Become aquainted with the many different blocks to use to build your Kingdom.',
+			'HEAD' => 'Blox',
+			'QUOTE' => 'Blox are Universal chunks of code created to be Widely Distributed and Quickly Deployed anywhere you want.',
 			'BTN'	=> array( 
+				'html'	=> array(
+					'a' => '<i class="fa fa-html5"></i> Engine Blox',
+					'class' => 'btn-transparent'
+				),
+	
+
+				'js'	=> array(
+					'a' => '<i class="fa fa-book"></i> Libraries',
+					'class' => 'btn-transparent'
+				),				
+				'css'	=> array(
+					'a' => '<i class="fa fa-css3"></i> Style Sheets',
+					'class' => 'btn-transparent'
+				),
+
 				
-				'read'	=> array(
-					'a' => '<i class="fa fa-book"></i>  All Blox ',
-					'class' => 'btn-info'
-				),
-				'create'	=> array(
-					'a' => '<i class="fa fa-cube"></i>  Create Blox ',
-					'class' => 'btn-success'
-				),
-				'update'	=> array(
-					'a' => '<i class="fa fa-cubes"></i>  Edit Blox ',
-					'class' => 'btn-primary'
-				),
-				'delete'	=> array(
-					'a' 	=> '<i class="fa fa-bomb"></i>   Delete',
-					'class' => 'btn-danger'
-				),
 			)
 		),
-		'create'=> array(
-			'ICON' => 'fa-cube',
+		'templates'=> array(
+			'ICON' => 'fa-paint-brush',
 			'JUMBO' => array( 
-				'HEAD' => 'Create a New Blox',
-				'QUOTE' => 'Blox are made up of HTML, CSS, Javascript, with a Splash of Server Side Power.' 
+				'HEAD' => 'Themes',
+				'QUOTE' => 'Pre-designed, ready-to-go, yet customizable, themes for your cloud.' 
 			),
 			'input' => array(
 				'html','css','js'
 			)
 		),
-		'read'=> array(
+		'html'=> array(
 			'ICON' => 'fa-book',
 			'JUMBO' => array( 
 				'HEAD' => 'Countless Numbers of Blox',
-				'QUOTE' => 'The Nexus is Home to a Million Blox. Be sure to find your favorite ones.' 
+				'QUOTE' => 'A "Blox" is a universally exchangable blob of code; compromised of HTML, CSS, and Javascript.',
+				'QUOTE' => 'The Nexus is Home to a Millions of Blox built from and shared with the world.' 
 			)
 		),
 		'update'=> array(
